@@ -10,8 +10,8 @@
     <?php
     include("partials/header.php");
     ?>
-	<div class="content">
-		<h1>admission</h1>
-	</div>
+    <main class="main-content">
+        <div>hello world</div>
+    </main>
 </body>
 </html>

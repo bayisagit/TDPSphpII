@@ -7,7 +7,10 @@
         <?php 
         $current_page = basename($_SERVER['PHP_SELF']); 
         ?>
-
+        <li class="<?= ($current_page == 'admission.php') ? 'active' : ''; ?>">
+            <i class="fa fa-user-edit"></i><a href="admission.php"> Admission</a>
+        </li>
+        
         <li class="<?= ($current_page == 'addstudent.php') ? 'active' : ''; ?>">
             <i class="fa fa-user-plus"></i><a href="addstudent.php"> Add Student</a>
         </li>

@@ -42,6 +42,13 @@
         <li class="<?= ($current_page == 'viewfamily.php') ? 'active' : ''; ?>">
             <i class="fa fa-user-friends"></i><a href="viewfamily.php"> View Family</a>
         </li>
+        <li class="<?= ($current_page == 'general_announcement.php') ? 'active' : ''; ?>">
+            <i class="fa fa-bullhorn"></i><a href="general_announcement.php"> General Announcement</a>
+        </li>
+
+        <li class="<?= ($current_page == 'member_announcement.php') ? 'active' : ''; ?>">
+            <i class="fa fa-bullhorn"></i><a href="member_announcement.php"> Member Announcement</a>
+        </li>
     </ul>
 </aside>
 <header>

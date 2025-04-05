@@ -22,8 +22,8 @@
                         <input type="text" id="course_name" name="course_name" required>
                     </div>
                     <div class="form-group">
-                        <label for="course_code">Course Code:</label>
-                        <input type="text" id="course_code" name="course_code" required>
+                        <label for="teacher_id">Teacher Id:</label>
+                        <input type="int" id="teacher_id" name="teacher_id" required>
                     </div>
                     <div class="form-group">
                         <label for="subject">Subject:</label>

@@ -72,7 +72,7 @@ bash
 Copy
 Edit
 # Clone the repo
-git clone https://github.com/bayisagit/tdpsphpprojectalone.git
+git clone https://github.com/bayisagit/TDPSphpII.git
 
 # Start Apache & MySQL via XAMPP
 

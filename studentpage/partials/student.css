@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-content {
+    margin-left: 18%;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 16%;
+    background: #673AB7;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li i {
+    margin-right: 10px;
+}
+
+.sidebar ul li.active, .sidebar ul li:hover {
+    background: #512DA8;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.logo h2 {
+    font-size: 45px;
+    width: auto;
+    height: auto;
+}
+
+.logo h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+header {
+    margin-left: 18%;
+    padding: 20px;
+    flex: 1;
+}
+.navs {
+    background-color: #f4f4f4;
+    padding: 0; /* Remove padding */
+    position: fixed; /* Attach to top */
+    top: 0;
+    right: 0;
+    left: 19%;
+    z-index: 999;
+    margin: 0; 
+}
+
+.navss {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 10px 20px; /* Small padding inside nav for spacing */
+    gap: 20px;
+}
+
+.navss li a {
+    text-decoration: none; /* ✅ Remove underline */
+    color: #333;
+    font-weight: bold;
+    padding: 6px 12px;
+    display: inline-block;
+}
+
+.navss li a:hover {
+    color: #673AB7;
+}
+
+.schol {
+    display: flex;
+    margin-top: 38px;
+    margin-bottom: 20px;
+    font-size: 34px;
+    padding-left: 400px;
+}
+.iconresponsive{
+    font-size: 7rem;
+}
+
+
+.user {
+    border-radius: 5px;
+    padding: 15px;
+    background: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user span {
+    margin-right: 10px;
+}
+
+.user span i {
+    margin-right: 10px;
+}
+
+.logout {
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    .sidebar {
+        width: 20%;
+    }
+    header {
+        margin-left: 20%;
+    }
+    .schol {
+        font-size: 28px;
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 25%;
+    }
+    header {
+        margin-left: 25%;
+    }
+    .schol {
+        font-size: 24px;
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+        margin-top: 50px;
+        width: 92%;
+        height: 20px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo h2 {
+        font-size: 30px;
+    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    .sidebar ul {
+        margin-top: 0px;;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sidebar ul li {
+        padding: 0px;
+        margin: 5px;    }
+    .logo {
+        display: flex;
+        justify-content: space-between;
+    }
+    header {
+        margin-left: 0;
+        padding: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .schol {
+        font-size: 20px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .main-content {
+    margin-left: 1%;
+    padding: 0px;
+    flex: 1;
+}
+    .iconresponsive{
+        font-size: 2.5rem;
+        margin-right: 4px;
+    }
+.navs {
+    background-color: #f4f4f4;
+    padding: 0; /* Remove padding */
+    position: fixed; /* Attach to top */
+    top: 0;
+    right: 0;
+    left: 0%;
+    z-index: 999;
+    margin-bottom: 5px;
+}
+
+}
